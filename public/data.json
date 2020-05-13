@@ -1,0 +1,223 @@
+[
+  {
+    "key": "1",
+    "name": "Frédéric Bonnet",
+    "status": {
+      "indicator": "confirmed",
+      "value": "Confirmé"
+    },
+    "doze": {
+      "text": "Injection №1 I 1400 MBq",
+      "value": "1400"
+    },
+    "timestamp": {
+      "date": "2019-05-01",
+      "timeslot": "15.30 — 16.30"
+    },
+    "phone": "+33 6 786 55 87"
+  },
+  {
+    "key": "2",
+    "name": "Nathan Lambert",
+    "status": {
+      "indicator": "waiting",
+      "value": "En attente"
+    },
+    "doze": {
+      "text": "Injection №2 I 4400 MBq",
+      "value": "4400"
+    },
+    "timestamp": {
+      "date": "2019-06-01",
+      "timeslot": "15.30 — 16.30"
+    },
+    "phone": "+33 6 786 55 87"
+  },
+  {
+    "key": "3",
+    "name": "Alexandre Leroy",
+    "status": {
+      "indicator": "critical",
+      "value": "Critique"
+    },
+    "doze": {
+      "text": "Injection №3 I 2400 MBq",
+      "value": "2400"
+    },
+    "timestamp": {
+      "date": "2019-07-01",
+      "timeslot": "15.30 — 16.30"
+    },
+    "phone": "+33 6 786 55 87"
+  },
+  {
+    "key": "4",
+    "name": "Michele Morel",
+    "status": {
+      "indicator": "pipeline",
+      "value": "Pipeline"
+    },
+    "doze": {
+      "text": "Injection №4 I 5000 MBq",
+      "value": "5000"
+    },
+    "timestamp": {
+      "date": "2019-07-21",
+      "timeslot": "15.30 — 16.30"
+    },
+    "phone": "+33 6 786 55 87"
+  },
+  {
+    "key": "5",
+    "name": "Valérie Dubois",
+    "status": {
+      "indicator": "confirmed",
+      "value": "Confirmé"
+    },
+    "doze": {
+      "text": "Injection №1 I 9000 MBq",
+      "value": "9000"
+    },
+    "timestamp": {
+      "date": "2019-08-11",
+      "timeslot": "15.30 — 16.30"
+    },
+    "phone": "+33 6 786 55 87"
+  },
+  {
+    "key": "6",
+    "name": "Mathis Martinez",
+    "status": {
+      "indicator": "waiting",
+      "value": "En attente"
+    },
+    "doze": {
+      "text": "Injection №2 I 7000 MBq",
+      "value": "7000"
+    },
+    "timestamp": {
+      "date": "2019-08-08",
+      "timeslot": "15.30 — 16.30"
+    },
+    "phone": "+33 6 786 55 87"
+  },
+  {
+    "key": "7",
+    "name": "Emma Bernard",
+    "status": {
+      "indicator": "critical",
+      "value": "Critique"
+    },
+    "doze": {
+      "text": "Injection №3 I 6400 MBq",
+      "value": "6400"
+    },
+    "timestamp": {
+      "date": "2019-10-15",
+      "timeslot": "15.30 — 16.30"
+    },
+    "phone": "+33 6 786 55 87"
+  },
+  {
+    "key": "8",
+    "name": "Manon Thomas",
+    "status": {
+      "indicator": "pipeline",
+      "value": "Pipeline"
+    },
+    "doze": {
+      "text": "Injection №4 I 2200 MBq",
+      "value": "2200"
+    },
+    "timestamp": {
+      "date": "2019-11-29",
+      "timeslot": "15.30 — 16.30"
+    },
+    "phone": "+33 6 786 55 87"
+  },
+  {
+    "key": "9",
+    "name": "Oceane Roux",
+    "status": {
+      "indicator": "confirmed",
+      "value": "Confirmé"
+    },
+    "doze": {
+      "text": "Injection №1 I 8400 MBq",
+      "value": "8400"
+    },
+    "timestamp": {
+      "date": "2019-12-04",
+      "timeslot": "15.30 — 16.30"
+    },
+    "phone": "+33 6 786 55 87"
+  },
+  {
+    "key": "10",
+    "name": "Jules Lefèvre",
+    "status": {
+      "indicator": "waiting",
+      "value": "En attente"
+    },
+    "doze": {
+      "text": "Injection №2 I 3000 MBq",
+      "value": "3000"
+    },
+    "timestamp": {
+      "date": "2020-03-10",
+      "timeslot": "15.30 — 16.30"
+    },
+    "phone": "+33 6 786 55 87"
+  },
+  {
+    "key": "11",
+    "name": "Vincent Mercier",
+    "status": {
+      "indicator": "critical",
+      "value": "Critique"
+    },
+    "doze": {
+      "text": "Injection №3 I 8800 MBq",
+      "value": "8800"
+    },
+    "timestamp": {
+      "date": "2019-02-25",
+      "timeslot": "15.30 — 16.30"
+    },
+    "phone": "+33 6 786 55 87"
+  },
+  {
+    "key": "12",
+    "name": "Thomas Girard",
+    "status": {
+      "indicator": "pipeline",
+      "value": "Pipeline"
+    },
+    "doze": {
+      "text": "Injection №4 I 1900 MBq",
+      "value": "1900"
+    },
+    "timestamp": {
+      "date": "2019-01-12",
+      "timeslot": "15.30 — 16.30"
+    },
+    "phone": "+33 6 786 55 87"
+  },
+  {
+    "key": "13",
+    "name": "Gilberto Silva",
+    "status": {
+      "indicator": "critical",
+      "value": "Critique"
+    },
+    "doze": {
+      "text": "Injection №1 I 1400 MBq",
+      "value": "1400"
+    },
+    "timestamp": {
+      "date": "2019-05-01",
+      "timeslot": "15.30 — 16.30"
+    },
+    "phone": "+33 6 786 55 87"
+  }
+]

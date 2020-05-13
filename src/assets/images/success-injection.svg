@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86" height="86" viewBox="0 0 86 86">
+    <defs>
+        <circle id="b" cx="29" cy="29" r="29"/>
+        <filter id="a" width="124.1%" height="124.1%" x="-12.1%" y="-8.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.109803922 0 0 0 0 0.164705882 0 0 0 0 0.270588235 0 0 0 0.3 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="43" cy="43" r="43" fill="#D9EEBB"/>
+        <g transform="translate(14 14)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <path fill="#74AB35" d="M33.89 49.646l4.015 4.127-1.956 2.011 1.268 1.304a1.329 1.329 0 0 1 0 1.843 1.244 1.244 0 0 1-1.794 0l-6.552-6.734a1.329 1.329 0 0 1 0-1.843 1.244 1.244 0 0 1 1.794 0l1.268 1.303 1.957-2.011zm23.25-18.963a1.29 1.29 0 0 1 0 1.788l-5.512 5.665 1.621 5.844c.123.441.003.916-.313 1.24l-9.431 9.694c-.231.238-.544.37-.87.37-.327 0-.64-.132-.87-.37l-8.202-8.43a1.282 1.282 0 0 1-.36-.893c0-.336.13-.657.36-.894l9.432-9.694a1.207 1.207 0 0 1 1.207-.322l5.686 1.666 5.512-5.664a1.207 1.207 0 0 1 1.74 0zM40.853 46.71a1.032 1.032 0 0 0 0-1.43l-2.087-2.145-1.392 1.43 2.087 2.145a.968.968 0 0 0 1.392 0zm2.268-2.331a1.032 1.032 0 0 0 0-1.43l-2.086-2.145-1.392 1.43 2.086 2.145a.968.968 0 0 0 1.392 0zm2.268-2.331a1.032 1.032 0 0 0 0-1.431l-2.086-2.145-1.392 1.431 2.087 2.145a.968.968 0 0 0 1.391 0z"/>
+    </g>
+</svg>

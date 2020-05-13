@@ -1,0 +1,47 @@
+.notiflist__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #d2d6ec;
+}
+.notiflist__body {
+  padding: 0 32px;
+}
+.notif {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 34px 36px 34px 32px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(28, 42, 69, 0.3);
+  background-color: #ffffff;
+  font-size: 14px;
+  color: #1d273b;
+  a {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+}
+.notif__icon {
+  font-size: 24px;
+  margin-right: 32px;
+}
+.notif__content {
+  flex-grow: 1;
+  margin-right: 32px;
+  .opt-status {
+    font-size: 10px;
+  }
+}
+.notif__date {
+  margin-right: 22px;
+  opacity: 0.5;
+}
+.notif__user {
+  display: flex;
+  align-items: baseline;
+  margin-top: 10px;
+}

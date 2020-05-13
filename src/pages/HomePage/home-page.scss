@@ -1,0 +1,33 @@
+.page-home {
+    background-color: #f5f9fa;
+    color: #4a586e;
+}
+.home__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 60px 0 120px;
+    &>* {
+z-index: 1;
+    }
+}
+.home__nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    a {
+        margin: 5px 20px;
+    }
+}
+.home__subtitle {
+    margin: 16px 0 38px;
+}
+.home__bg {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: 0;
+}

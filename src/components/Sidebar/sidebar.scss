@@ -1,0 +1,122 @@
+.sidebar {
+  flex-shrink: 0;
+  width: 262px;
+  min-height: 100vh;
+  box-shadow: 0 2px 4px 0 rgba(22, 40, 41, 0.08);
+  background-color: #253149;
+}
+.sidebar__head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  background-color: rgba($color: #0d182d, $alpha: 0.7);
+}
+.sidebar__title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 900;
+  color: #a4d65e;
+}
+.sidebar__menu {
+  padding: 16px 0;
+  border-bottom: 2px solid #434e64;
+  .menu__link {
+    display: inline-flex;
+    width: 100%;
+    padding: 14px 16px 14px 28px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba($color: #a7acb6, $alpha: 0.6);
+    border-left: 4px solid transparent;
+    &:hover {
+      color: #a4d65e;
+    }
+    &.is-active {
+      background-color: #3a465e;
+      border-color: #a4d65e;
+      color: #a4d65e;
+    }
+  }
+}
+.sidebar__notification {
+  position: relative;
+  margin: 42px 16px 0;
+  padding: 26px 16px 16px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: #d2d6ec;
+  background-color: #414d67;
+  transition: background-color 0.3s ease;
+  &:hover {
+   &, .notification__bell {
+     background-color: #141f34;
+   }
+   .notification__bell .icon {
+    animation: ring 4s ease-in-out infinite;
+   }
+  }
+  &:hover a {
+    color: #d2d6ec;
+    background-color: #141f34;
+  }
+  &.unread {
+    &, &:hover a {
+      color: #e58321;
+    }
+  }
+}
+.notification__bell {
+  position: absolute;
+  top: -26px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background-color: #414d67;
+  transition: background-color 0.3s ease;
+
+  a {
+    display: inline-flex;
+  }
+  .icon {
+    fill: currentColor;
+    font-size: 23px;
+    transform-origin: top center;
+  }
+}
+.notification__caption {
+  color: rgba($color: #ffffff, $alpha: 0.6);
+  font-weight: 500;
+}
+.notification__message {
+  margin-top: 6px;
+  font-weight: 900;
+  color: inherit;
+}
+@keyframes ring {
+  0% { transform: rotate(0); }
+  1% { transform: rotate(30deg); }
+  7% { transform: rotate(-32deg); }
+  13% { transform: rotate(26deg); }
+  19% { transform: rotate(-20deg); }
+  21% { transform: rotate(18deg); }
+  23% { transform: rotate(-16deg); }
+  25% { transform: rotate(14deg); }
+  27% { transform: rotate(-12deg); }
+  29% { transform: rotate(10deg); }
+  31% { transform: rotate(-8deg); }
+  33% { transform: rotate(6deg); }
+  35% { transform: rotate(-4deg); }
+  37% { transform: rotate(2deg); }
+  39% { transform: rotate(-1deg); }
+  41% { transform: rotate(1deg); }
+  43% { transform: rotate(0); }
+  100% { transform: rotate(0); }
+}

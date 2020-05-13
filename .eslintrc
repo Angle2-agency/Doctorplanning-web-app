@@ -1,0 +1,41 @@
+{
+    "extends":[
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint",
+        "plugin:prettier/recommended"
+    ],
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "settings":  {
+        "react":  {
+            "version":  "detect"
+        }
+    },
+    "rules": {
+        "strict": 0,
+        "no-console": 0,
+        "semi": ["error", "never", { "beforeStatementContinuationChars": "never"}],
+        "comma-dangle": 0,
+        "new-cap": 0,
+        "camelcase": 0,
+        "class-methods-use-this": 0,
+        "max-len": ["error", 300],
+        "no-underscore-dangle": 0,
+        "jsx-a11y/no-static-element-interactions": 0,
+        "react/display-name": [0],
+        "react/jsx-indent-props": ["error", 2],
+        "react/jsx-indent": ["error", 2],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tx", ".tsx"] }],
+        "react/jsx-closing-bracket-location": [2, "tag-aligned"],
+        "react/forbid-prop-types": 0,
+        "react/no-did-update-set-state": 0,
+        "react/jsx-no-bind": 0,
+        "react/prop-types": 0,
+        "react/no-string-refs": 0
+    }
+}

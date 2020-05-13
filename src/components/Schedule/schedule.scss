@@ -1,0 +1,218 @@
+.schedule {
+  position: relative;
+  height: 100%;
+  padding: 40px 0;
+  border-left: 1px solid #d2d6ec;
+  font-size: 12px;
+  line-height: 1.67;
+  color: rgba($color: #1d273b, $alpha: 0.9);
+  h6 {
+    font-size: inherit;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+}
+.schedule__title {
+  position: absolute;
+  height: 64px;
+  position: absolute;
+  left: -1px;
+  top: -64px;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #d2d6ec;
+  padding: 16px;
+  .h-5 {
+    color: #253149;
+  }
+}
+.schedule__inner {
+  display: flex;
+  margin-left: 16px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px 0 rgba(28, 42, 69, 0.3);
+  background-color: #ffffff;
+}
+.schedule__timetrack {
+  width: 48px;
+  background-color: #ebeefd;
+}
+.schedule__injections {
+  padding: 20px 0 16px;
+  flex-grow: 1;
+}
+.schedule__inj-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.inj {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: #f2f4fb;
+  .inj__icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+    z-index: 1;
+    .icon {
+      font-size: 21px;
+    }
+  }
+  &.waiting {
+    background-color: #bdcbec;
+    &:before {
+      border-color: transparent #bdcbec transparent transparent;
+    }
+    .icon {
+      fill: #2b59c3;
+    }
+  }
+  &.confirmed {
+    background-color: #d9edbd;
+    &:before {
+      border-color: transparent #d9edbd transparent transparent;
+    }
+    .icon {
+      fill: #74ab35;
+    }
+  }
+  &.critical {
+    background-color: #efaeac;
+    &:before {
+      border-color: transparent #efaeac transparent transparent;
+    }
+    .icon {
+      fill: #e03939;
+    }
+  }
+  &.pipeline {
+    background-color: #e3e6f2;
+    &:before {
+      border-color: transparent #e3e6f2 transparent transparent;
+    }
+    .icon {
+      fill: rgba($color: #414d67, $alpha: 0.4);
+    }
+  }
+  &.approved {
+    background-color: #edf3e4;
+  }
+  &.pending {
+    background-color: #f2f4fb;
+  }
+  &--primary {
+    height: 64px;
+    width: calc(100% - 20px);
+    margin: 32px 0;
+    padding: 8px 4px 8px 8px;
+    &:before {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      left: -12px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 16px 20px 16px 0;
+      border-color: transparent #f2f4fb transparent transparent;
+      z-index: 0;
+    }
+  }
+  &--secondary {
+    height: 48px;
+    width: 162px;
+    margin: 8px 0;
+    .inj__icon {
+      margin-right: 8px;
+      width: 40px;
+      height: 40px;
+      .icon {
+        font-size: 15px;
+        fill: #253149;
+      }
+    }
+  }
+  .inj__icon {
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(28, 42, 69, 0.3);
+    background-color: #ffffff;
+  }
+}
+.inj__sec-list {
+  position: relative;
+  width: 100%;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 24px 0;
+  & > .inj--secondary:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+.inj__timesteps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 36px;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 12px;
+  line-height: normal;
+  color: rgba($color: #253149, $alpha: 0.5);
+}
+.inj__timestep {
+  position: relative;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  &:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: -40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 40px;
+    height: 1px;
+    background-color: #d2d6ec;
+  }
+  &.short:after {
+    width: 16px;
+    right: -16px;
+  }
+}
+.inj__timestep--main {
+  position: absolute;
+  left: -60px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border: solid 1px #d2d6ec;
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.33;
+  color: #8bbe44;
+  border-radius: 50%;
+}

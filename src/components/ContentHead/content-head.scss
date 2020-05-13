@@ -1,0 +1,28 @@
+.content-head {
+  width: 100%;
+  color: #4a586e;
+  background-color: #e3e6f7;
+  border-bottom: 1px solid rgba($color: #253149, $alpha: .2)
+}
+
+.content-head__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 12px 0;
+}
+.content-head__left {
+  .icon {
+    font-size: 12px;
+    margin-right: 8px;
+    margin-bottom: 2px;
+  }
+}
+.content-head__actions {
+  display: flex;
+  align-items: center;
+  .btn {
+    margin-left: 24px;
+  }
+}
