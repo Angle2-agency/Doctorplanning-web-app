@@ -64,7 +64,7 @@ To build for production
 yarn run build
 ```
 
-## Tests
+### Tests
 
 Running the Storybook
 
