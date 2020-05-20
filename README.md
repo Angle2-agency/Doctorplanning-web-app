@@ -1,4 +1,4 @@
-# Lutaplanning React Project
+# Doctorplanning React Project
 
 ### Description: 
 Frontend apps using React.js with batteries included.
